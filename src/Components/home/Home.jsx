@@ -648,14 +648,8 @@ export default function Home() {
       <div className="sixthsection overflow-hidden py-4">
         <div className="banner">
           <div className="product">
-            <div
-              className="soda"
-              style={{ "--url": "url(../public/newbg.png)" }}
-            ></div>
-            <div
-              className="soda"
-              style={{ "--url": "url(../public/newbg2.png)" }}
-            ></div>
+            <div className="soda" style={{ "--url": "url(/newbg.png)" }}></div>
+            <div className="soda" style={{ "--url": "url(/newbg2.png)" }}></div>
           </div>
           <div className="rock">
             <img src="rock1.png" alt="" />

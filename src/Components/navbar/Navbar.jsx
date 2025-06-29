@@ -7,7 +7,7 @@ export default function Navbar({ setOpenProject }) {
       <nav className="navbar navbar-expand-lg  px-2 border-bottom border-white border-opacity-10 position-fixed ">
         <div className="container-fluid">
           <Link className="navbar-brand text-white logo" to="/home">
-            UBTC
+            UTC
           </Link>
           <button
             className="navbar-toggler "

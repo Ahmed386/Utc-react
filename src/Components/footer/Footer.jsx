@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="container p-2">
           <div className="row flex-shrink-1 ">
             <div className="col-2 UBTC">
-              <span className=" py-1 px-3 fs-1 text-white border ">UBTC</span>
+              <span className=" py-1 px-3 fs-1 text-white border ">UTC</span>
             </div>
 
             <div className="col-10 d-flex    footerunderline position-relative ">
@@ -40,8 +40,8 @@ export default function Footer() {
                       <li className="px-3">
                         {" "}
                         <a
-                          href="https://www.facebook.com/UBTC.COM.EG/"
-                          target="_blank"
+                          href="#"
+                          
                         >
                           <i className="fa-brands fa-lg fa-facebook-f"></i>
                         </a>
@@ -49,8 +49,7 @@ export default function Footer() {
                       <li className="px-3">
                         {" "}
                         <a
-                          target="_blank"
-                          href="https://www.linkedin.com/company/united-brothers-for-trading-and-construction-%E2%80%9Cubtc%E2%80%9D/"
+                          href="#"
                         >
                           <i className="fa-brands fa-linkedin-in fa-lg"></i>
                         </a>
@@ -105,7 +104,7 @@ export default function Footer() {
                     </li>
                     <li className="px-1  py-2">
                       <a className="" href="#">
-                        +7 (900) 789-45-61
+                        +7 (900) 789-**-**
                       </a>
                     </li>
                     <li className="px-1 abnourfoot  py-2">

@@ -73,13 +73,13 @@ export default function Home() {
     },
     {
       avatar: "staff/staff-5.png (1).png",
-      name: "Hugo Bob",
+      name: "Jon Naves",
       job: "	constructor",
     },
     {
       avatar: "staff/staff1.png (1).png",
-      name: "Shezuka Li",
-      job: "		engineer  ",
+      name: "Bruce Way",
+      job: "		Director  ",
     },
   ];
 
@@ -220,9 +220,9 @@ export default function Home() {
                     projects, big and small, from home maintenance and
                     improvements to extensions, refurbishments. One of the most
                     upgrading and promising companies in Egypt. In February
-                    2010, UBTC was established as an Egyptian joint-stock
+                    2010, UTC was established as an Egyptian joint-stock
                     company subject to the companies' establishment law no.159
-                    for the year 1981. UBTC was established with an authorized
+                    for the year 1981. UTC was established with an authorized
                     capital of 10 millions Egyptian pounds.
                   </p>
                   <Link
@@ -641,6 +641,24 @@ export default function Home() {
                 )}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="sixthsection overflow-hidden py-4">
+        <div className="banner">
+          <div className="product">
+            <div
+              className="soda"
+              style={{ "--url": "url(newbg.png)" }}
+            ></div>
+            <div
+              className="soda"
+              style={{ "--url": "url(newbg2.png)" }}
+            ></div>
+          </div>
+          <div className="rock">
+          <img src="rock1.png" alt="" />
           </div>
         </div>
       </div>

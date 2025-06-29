@@ -453,6 +453,135 @@ nav .navbtn {
   right: 0;
   top: 0;
 }
+
+/* *********** Sixth Section ************ */
+
+.sixthsection{
+  background-image: url(../public/shap.png.png);
+  background-position: center center;
+}
+
+body{
+  margin:0;
+  
+}
+.banner{
+  position: relative;
+  /* overflow: hidden; */
+  height: 100vh;
+  background-position: center center;
+  filter: blur(0px) brightness(0.8);  
+  padding:5rem;
+
+
+}
+
+.banner .product{
+  width: 500px;
+  height: 345px ;
+  position: absolute;
+  bottom:170px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  transition: .8s;
+  display: flex;
+  --left:0px;
+
+
+}
+
+.banner .product .soda{
+  background : var(--url) var(--left) 0  ,
+   url(../public/mockup.png);
+  background-size: auto 100% ;
+  width: 120px;
+  aspect-ratio: 2/4;
+  background-blend-mode: multiply;
+  mask-image: url(../public/mockup.png);
+  mask-size: auto 100%;
+  transition: .7s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+
+  /* animation: runAhmed 3s linear  infinite ; */
+  
+   
+
+}
+/* 
+@keyframes runAhmed {
+work on this :
+from{
+  mask-size: auto 20%;
+
+}
+to{
+  mask-size: auto 100%;
+
+}
+  
+} */
+
+
+.banner .product:hover{
+  --left:-1000px;
+  transform: translateX(-50%) translateY(-120px);
+  
+
+
+
+}
+
+.banner .rock{
+  position: absolute;
+  inset: 0 0 0 0;
+  pointer-events: none;
+
+}
+
+
+.banner .rock img{
+  position: absolute;
+  transition: .7s;
+}
+
+.banner .rock img:nth-child(1){
+  height: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 200px;
+  z-index: 0;
+}
+
+.banner:has(.product:hover) .rock img:nth-child(1){
+  transform: translateX(-50%) translateY(50px);
+
+}
+
+.banner .product .soda:nth-child(2){
+  opacity: 0;
+} 
+
+.banner .product:hover .soda:nth-child(2){
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*********** last section ***************/
 
 .lastsection {

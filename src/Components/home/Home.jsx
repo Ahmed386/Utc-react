@@ -220,10 +220,10 @@ export default function Home() {
                     projects, big and small, from home maintenance and
                     improvements to extensions, refurbishments. One of the most
                     upgrading and promising companies in Egypt. In February
-                    2010, UTC was established as an Egyptian joint-stock
-                    company subject to the companies' establishment law no.159
-                    for the year 1981. UTC was established with an authorized
-                    capital of 10 millions Egyptian pounds.
+                    2010, UTC was established as an Egyptian joint-stock company
+                    subject to the companies' establishment law no.159 for the
+                    year 1981. UTC was established with an authorized capital of
+                    10 millions Egyptian pounds.
                   </p>
                   <Link
                     className="text-white text-decoration-none btn btn-danger px-5 secondsectionbtn"
@@ -650,15 +650,15 @@ export default function Home() {
           <div className="product">
             <div
               className="soda"
-              style={{ "--url": "url(newbg.png)" }}
+              style={{ "--url": "url(./newbg.png)" }}
             ></div>
             <div
               className="soda"
-              style={{ "--url": "url(newbg2.png)" }}
+              style={{ "--url": "url(./newbg2.png)" }}
             ></div>
           </div>
           <div className="rock">
-          <img src="rock1.png" alt="" />
+            <img src="rock1.png" alt="" />
           </div>
         </div>
       </div>

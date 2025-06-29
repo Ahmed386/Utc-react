@@ -650,11 +650,11 @@ export default function Home() {
           <div className="product">
             <div
               className="soda"
-              style={{ "--url": "url(./newbg.png)" }}
+              style={{ "--url": "url(../public/newbg.png)" }}
             ></div>
             <div
               className="soda"
-              style={{ "--url": "url(./newbg2.png)" }}
+              style={{ "--url": "url(../public/newbg2.png)" }}
             ></div>
           </div>
           <div className="rock">
